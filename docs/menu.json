@@ -1,11 +1,6 @@
 {
-  "status": "ok",
-  "date": "2026-06-04",
-  "dateFr": "04/06/2026",
-  "fetchedAt": "2026-06-03T22:14:33.339Z",
-  "sourceUrl": "https://www.lestroisparcs.com/restaurant-entreprises-eragny/parc-des-bellevues",
-  "plats": [
-    "Côte de porc charcutière/7.02€ - Salade niçoise/7.59€ - Filet de bar sauce vierge/10.53€"
-  ],
-  "text": "Menu RIE Bellevues du 04/06/2026\n\n- Côte de porc charcutière/7.02€ - Salade niçoise/7.59€ - Filet de bar sauce vierge/10.53€"
+  "status": "pending",
+  "date": null,
+  "fetchedAt": null,
+  "dishes": []
 }

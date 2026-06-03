@@ -4,9 +4,9 @@ const SOURCE_URL =
   "https://www.lestroisparcs.com/restaurant-entreprises-eragny/parc-des-bellevues";
 
 const OUT_DIR = "docs";
+const FORCE_RUN = process.env.RIE_FORCE_RUN === "true";
 const START_HOUR = Number(process.env.RIE_START_HOUR_PARIS ?? 9);
 const END_HOUR = Number(process.env.RIE_END_HOUR_PARIS ?? 12);
-const FORCE_RUN = process.env.RIE_FORCE_RUN === "true";
 
 function parisNow() {
   const now = new Date();
@@ -14,14 +14,12 @@ function parisNow() {
   const year = now.getFullYear();
   const month = String(now.getMonth() + 1).padStart(2, "0");
   const day = String(now.getDate()).padStart(2, "0");
-  const hour = now.getHours();
-  const minute = now.getMinutes();
 
   return {
     date: `${year}-${month}-${day}`,
     dateFr: `${day}/${month}/${year}`,
-    hour,
-    minute
+    hour: now.getHours(),
+    minute: now.getMinutes()
   };
 }
 
@@ -55,17 +53,36 @@ function htmlToText(html) {
       .replace(/<\/p>/gi, "\n")
       .replace(/<[^>]*>/g, " ")
   )
+    .replace(/\r/g, "\n")
     .split("\n")
     .map((line) => line.replace(/\s+/g, " ").trim())
-    .filter(Boolean);
+    .filter(Boolean)
+    .join(" - ");
 }
 
-function extractPlats(block) {
-  const matches = [...block.matchAll(/<p[^>]*class=["'][^"']*\bplats\b[^"']*["'][^>]*>([\s\S]*?)<\/p>/gi)];
+function parseDishes(block) {
+  const texts = [...block.matchAll(/<p[^>]*class=["'][^"']*\bplats\b[^"']*["'][^>]*>([\s\S]*?)<\/p>/gi)]
+    .map((match) => htmlToText(match[1]))
+    .join(" - ");
 
-  return matches
-    .map((match) => htmlToText(match[1]).join(" - "))
-    .filter(Boolean);
+  const dishes = [];
+  const pattern = /(.+?)[/\s]+(\d+[,.]\d{2})\s*€/g;
+  let match;
+
+  while ((match = pattern.exec(texts)) !== null) {
+    const name = match[1]
+      .replace(/^\s*[-–—]\s*/, "")
+      .replace(/\s*[-–—]\s*$/, "")
+      .trim();
+
+    const price = Number(match[2].replace(",", "."));
+
+    if (name && Number.isFinite(price)) {
+      dishes.push({ name, price });
+    }
+  }
+
+  return dishes;
 }
 
 async function readPreviousMenu() {
@@ -101,10 +118,6 @@ if (!FORCE_RUN && previous?.status === "ok" && previous?.date === now.date) {
   process.exit(0);
 }
 
-if (FORCE_RUN && previous?.status === "ok" && previous?.date === now.date) {
-  console.log(`Manual force mode: refetching even though menu is already published for ${now.dateFr}.`);
-}
-
 let response;
 
 try {
@@ -132,31 +145,25 @@ if (!html.includes(now.dateFr)) {
   process.exit(0);
 }
 
-const plats = extractPlats(extractTodayBlock(html));
+const dishes = parseDishes(extractTodayBlock(html));
 
-if (plats.length === 0) {
+if (dishes.length === 0) {
   console.log("No dish found yet.");
   process.exit(0);
 }
 
-const text = [`Menu RIE Bellevues du ${now.dateFr}`, "", ...plats.map((plat) => `- ${plat}`)].join("\n");
-
 const menu = {
   status: "ok",
   date: now.date,
-  dateFr: now.dateFr,
   fetchedAt: new Date().toISOString(),
-  sourceUrl: SOURCE_URL,
-  plats,
-  text
+  dishes
 };
 
 await fs.writeFile(`${OUT_DIR}/menu.json`, `${JSON.stringify(menu, null, 2)}\n`, "utf8");
-await fs.writeFile(`${OUT_DIR}/menu.txt`, `${text}\n`, "utf8");
 await fs.writeFile(
   `${OUT_DIR}/index.html`,
-  `<pre>${text.replaceAll("&", "&amp;").replaceAll("<", "&lt;")}</pre>\n`,
+  `<pre>${JSON.stringify(menu, null, 2).replaceAll("&", "&amp;").replaceAll("<", "&lt;")}</pre>\n`,
   "utf8"
 );
 
-console.log(`Published ${plats.length} dish(es) for ${now.dateFr}.`);
+console.log(`Published ${dishes.length} dish(es) for ${now.dateFr}.`);
