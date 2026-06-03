@@ -96,9 +96,13 @@ if (FORCE_RUN) {
 
 const previous = await readPreviousMenu();
 
-if (previous?.status === "ok" && previous?.date === now.date) {
+if (!FORCE_RUN && previous?.status === "ok" && previous?.date === now.date) {
   console.log(`Menu already published for ${now.dateFr}.`);
   process.exit(0);
+}
+
+if (FORCE_RUN && previous?.status === "ok" && previous?.date === now.date) {
+  console.log(`Manual force mode: refetching even though menu is already published for ${now.dateFr}.`);
 }
 
 let response;
