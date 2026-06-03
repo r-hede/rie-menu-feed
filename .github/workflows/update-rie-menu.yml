@@ -2,8 +2,14 @@ name: Update RIE menu
 
 on:
   workflow_dispatch:
+    inputs:
+      force:
+        description: "Ignorer la fenêtre horaire pour un test manuel"
+        required: false
+        type: boolean
+        default: true
   schedule:
-    - cron: "*/5 7-16 * * 1-5"
+    - cron: "*/5 7-10 * * 1-5"
 
 permissions:
   contents: write
@@ -17,7 +23,8 @@ jobs:
     runs-on: ubuntu-latest
     env:
       RIE_START_HOUR_PARIS: "9"
-      RIE_END_HOUR_PARIS: "14"
+      RIE_END_HOUR_PARIS: "12"
+      RIE_FORCE_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.force == true }}
     steps:
       - uses: actions/checkout@v4
 

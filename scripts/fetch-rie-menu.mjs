@@ -5,7 +5,8 @@ const SOURCE_URL =
 
 const OUT_DIR = "docs";
 const START_HOUR = Number(process.env.RIE_START_HOUR_PARIS ?? 9);
-const END_HOUR = Number(process.env.RIE_END_HOUR_PARIS ?? 14);
+const END_HOUR = Number(process.env.RIE_END_HOUR_PARIS ?? 12);
+const FORCE_RUN = process.env.RIE_FORCE_RUN === "true";
 
 function parisNow() {
   const parts = Object.fromEntries(
@@ -83,9 +84,15 @@ await fs.mkdir(OUT_DIR, { recursive: true });
 
 const now = parisNow();
 
-if (now.hour < START_HOUR || now.hour > END_HOUR) {
+console.log(`Paris time detected: ${now.dateFr} ${String(now.hour).padStart(2, "0")}h.`);
+
+if (!FORCE_RUN && (now.hour < START_HOUR || now.hour > END_HOUR)) {
   console.log(`Outside Paris update window: ${now.hour}h.`);
   process.exit(0);
+}
+
+if (FORCE_RUN) {
+  console.log("Manual force mode enabled: ignoring update window.");
 }
 
 const previous = await readPreviousMenu();
