@@ -160,10 +160,5 @@ const menu = {
 };
 
 await fs.writeFile(`${OUT_DIR}/menu.json`, `${JSON.stringify(menu, null, 2)}\n`, "utf8");
-await fs.writeFile(
-  `${OUT_DIR}/index.html`,
-  `<pre>${JSON.stringify(menu, null, 2).replaceAll("&", "&amp;").replaceAll("<", "&lt;")}</pre>\n`,
-  "utf8"
-);
 
 console.log(`Published ${dishes.length} dish(es) for ${now.dateFr}.`);
