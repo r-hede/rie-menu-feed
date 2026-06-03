@@ -9,7 +9,7 @@ on:
         type: boolean
         default: true
   schedule:
-    - cron: "*/5 7-10 * * 1-5"
+    - cron: "*/5 7-11 * * 1-5"
 
 permissions:
   contents: write
@@ -22,6 +22,7 @@ jobs:
   update:
     runs-on: ubuntu-latest
     env:
+      TZ: "Europe/Paris"
       RIE_START_HOUR_PARIS: "9"
       RIE_END_HOUR_PARIS: "12"
       RIE_FORCE_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.force == true }}

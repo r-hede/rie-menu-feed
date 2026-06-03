@@ -9,23 +9,19 @@ const END_HOUR = Number(process.env.RIE_END_HOUR_PARIS ?? 12);
 const FORCE_RUN = process.env.RIE_FORCE_RUN === "true";
 
 function parisNow() {
-  const parts = Object.fromEntries(
-    new Intl.DateTimeFormat("fr-FR", {
-      timeZone: "Europe/Paris",
-      year: "numeric",
-      month: "2-digit",
-      day: "2-digit",
-      hour: "2-digit",
-      hourCycle: "h23"
-    })
-      .formatToParts(new Date())
-      .map((part) => [part.type, part.value])
-  );
+  const now = new Date();
+
+  const year = now.getFullYear();
+  const month = String(now.getMonth() + 1).padStart(2, "0");
+  const day = String(now.getDate()).padStart(2, "0");
+  const hour = now.getHours();
+  const minute = now.getMinutes();
 
   return {
-    date: `${parts.year}-${parts.month}-${parts.day}`,
-    dateFr: `${parts.day}/${parts.month}/${parts.year}`,
-    hour: Number(parts.hour)
+    date: `${year}-${month}-${day}`,
+    dateFr: `${day}/${month}/${year}`,
+    hour,
+    minute
   };
 }
 
@@ -84,7 +80,10 @@ await fs.mkdir(OUT_DIR, { recursive: true });
 
 const now = parisNow();
 
-console.log(`Paris time detected: ${now.dateFr} ${String(now.hour).padStart(2, "0")}h.`);
+console.log(
+  `Paris time detected: ${now.dateFr} ${String(now.hour).padStart(2, "0")}:${String(now.minute).padStart(2, "0")}.`
+);
+console.log(`Runtime timezone: ${process.env.TZ || "not set"}.`);
 
 if (!FORCE_RUN && (now.hour < START_HOUR || now.hour > END_HOUR)) {
   console.log(`Outside Paris update window: ${now.hour}h.`);
