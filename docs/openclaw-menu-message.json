@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "date": "2026-06-04",
-  "generatedAt": "2026-06-04T16:54:14.535307+02:00",
+  "generatedAt": "2026-06-04T16:55:04.602565+02:00",
   "source": {
     "repository": "r-hede/rie-menu-feed",
     "branch": "main",
@@ -23,5 +23,5 @@
       "price": 10.53
     }
   ],
-  "message": "Bonjour,\nPour ce jeudi, le menu joue la carte du choix : du réconfort, de la fraîcheur et une option plus fine pour composer une vraie pause déjeuner.\nCôté météo, je n’ai pas de relevé fiable sous la main : je privilégie donc l’équilibre des plats et le rythme de la journée.\n\n🍽️ Plats du jour — 04/06/2026\n- Côte de porc charcutière — 7,02 € : un plat généreux et réconfortant, avec une sauce charcutière qui apporte du caractère sans compliquer l’assiette.\n- Salade niçoise — 7,59 € : une option fraîche et complète, idéale pour déjeuner léger tout en gardant de l’énergie pour l’après-midi.\n- Filet de bar sauce vierge — 10,53 € : un choix fin et lumineux, porté par une sauce vierge qui met en avant la fraîcheur du poisson.\n\n👨‍🍳 Suggestion du chef\n- Filet de bar sauce vierge — 10,53 € : un choix fin et lumineux, porté par une sauce vierge qui met en avant la fraîcheur du poisson. Mon choix aujourd’hui : l’assiette la plus fine du jour, idéale pour un déjeuner à la fois gourmand et maîtrisé.\n\nBonne journée, et bon appétit !"
+  "message": "Bonjour,\nPour ce jeudi, le menu joue la carte du choix : du réconfort, de la fraîcheur et une option plus fine pour composer une vraie pause déjeuner.\nAmbiance début juin oblige : on vise une pause déjeuner qui reste gourmande, mais suffisamment légère pour repartir sans inertie.\n\n🍽️ Plats du jour — 04/06/2026\n- Côte de porc charcutière — 7,02 € : un plat généreux et réconfortant, avec une sauce charcutière qui apporte du caractère sans compliquer l’assiette.\n- Salade niçoise — 7,59 € : une option fraîche et complète, idéale pour déjeuner léger tout en gardant de l’énergie pour l’après-midi.\n- Filet de bar sauce vierge — 10,53 € : un choix fin et lumineux, porté par une sauce vierge qui met en avant la fraîcheur du poisson.\n\n👨‍🍳 Suggestion du chef\n- Filet de bar sauce vierge — 10,53 € : un choix fin et lumineux, porté par une sauce vierge qui met en avant la fraîcheur du poisson. Mon choix aujourd’hui : l’assiette la plus fine du jour, parfaite pour garder de l’élan tout en profitant d’un vrai plat travaillé.\n\nBonne journée, et bon appétit !"
 }
