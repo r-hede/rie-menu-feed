@@ -1,0 +1,27 @@
+{
+  "status": "ok",
+  "date": "2026-06-04",
+  "generatedAt": "2026-06-04T16:49:36.825319+02:00",
+  "source": {
+    "repository": "r-hede/rie-menu-feed",
+    "branch": "main",
+    "path": "docs/menu.json",
+    "sha": "18901ef5f7546f618c5fd3dc5cf94fe089fa34cf",
+    "htmlUrl": "https://github.com/r-hede/rie-menu-feed/blob/main/docs/menu.json"
+  },
+  "dishes": [
+    {
+      "name": "Côte de porc charcutière",
+      "price": 7.02
+    },
+    {
+      "name": "Salade niçoise",
+      "price": 7.59
+    },
+    {
+      "name": "Filet de bar sauce vierge",
+      "price": 10.53
+    }
+  ],
+  "message": "Bonjour,\nPour ce milieu de semaine, voici le menu du jour.\n\n🍽️ Plats du jour — 04/06/2026\n- Côte de porc charcutière — 7,02 €\n- Salade niçoise — 7,59 €\n- Filet de bar sauce vierge — 10,53 €\n\n👨‍🍳 Suggestion du chef\n- Non disponible\n\nBonne journée."
+}
