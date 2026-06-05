@@ -85,6 +85,14 @@ function parseDishes(block) {
   return dishes;
 }
 
+async function fetchWeatherBestEffort() {
+  try {
+    await import("./fetch-weather.mjs");
+  } catch (error) {
+    console.log(`Weather update skipped: ${error.message}`);
+  }
+}
+
 async function readPreviousMenu() {
   try {
     return JSON.parse(await fs.readFile(`${OUT_DIR}/menu.json`, "utf8"));
@@ -115,6 +123,7 @@ const previous = await readPreviousMenu();
 
 if (!FORCE_RUN && previous?.status === "ok" && previous?.date === now.date) {
   console.log(`Menu already published for ${now.dateFr}.`);
+  await fetchWeatherBestEffort();
   process.exit(0);
 }
 
@@ -162,3 +171,4 @@ const menu = {
 await fs.writeFile(`${OUT_DIR}/menu.json`, `${JSON.stringify(menu, null, 2)}\n`, "utf8");
 
 console.log(`Published ${dishes.length} dish(es) for ${now.dateFr}.`);
+await fetchWeatherBestEffort();
