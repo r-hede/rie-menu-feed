@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "source": "open-meteo.com",
+  "location": "Éragny",
+  "latitude": 49.0167,
+  "longitude": 2.1,
+  "date": "2026-06-05",
+  "fetchedAt": "2026-06-05T12:28:12.735Z",
+  "description": "couvert",
+  "weatherCode": 3,
+  "tempC": 19,
+  "feelsLikeC": 17,
+  "precipMM": 0,
+  "chanceRain": 0,
+  "sunHours": 13.1,
+  "cloudCover": 96
+}
