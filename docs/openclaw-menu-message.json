@@ -1,12 +1,12 @@
 {
   "status": "ok",
   "date": "2026-06-05",
-  "generatedAt": "2026-06-05T11:10:33.901398+02:00",
+  "generatedAt": "2026-06-05T14:28:28.602008+02:00",
   "source": {
     "repository": "r-hede/rie-menu-feed",
     "branch": "main",
     "path": "docs/menu.json",
-    "sha": "172da0f6ca35fd4dbf53bc2f468367f90d084b0f",
+    "sha": "d6566c7b79165b3ed69448773dee28ad26191874",
     "htmlUrl": "https://github.com/r-hede/rie-menu-feed/blob/main/docs/menu.json"
   },
   "dishes": [
@@ -23,6 +23,16 @@
       "price": 8.09
     }
   ],
-  "message": "🍽️ Menu RIE — 05/06/2026\n\nVendredi au menu : une bonne pause déjeuner pour trancher entre caractère, fraîcheur et valeurs sûres.\nAujourd’hui, le menu mise sur du caractère, une touche de soleil et des valeurs sûres. De quoi finir la semaine avec une assiette bien choisie.\n\nPlats du jour\n• Andouillette de Troyes — 7,02 €\n  Une spécialité généreuse au goût franc, parfaite pour les amateurs de plats rustiques et bien marqués.\n• Pavé de thon basquaise — 8,76 €\n  Un pavé de thon accompagné d’une sauce basquaise aux poivrons et tomates, pour une assiette légère et ensoleillée.\n• Pizza — 8,09 €\n  Une valeur sûre, fondante et conviviale, idéale pour une pause déjeuner simple et efficace.\n\nSuggestion du chef\n👉 Pavé de thon basquaise\nLe bon compromis du jour : savoureux, coloré, et assez léger pour garder de l’énergie l’après-midi.\n\nBon appétit !",
-  "messageHtml": "<div><h2>🍽️ Menu RIE — 05/06/2026</h2><p>Vendredi au menu : une bonne pause déjeuner pour trancher entre caractère, fraîcheur et valeurs sûres.<br>Aujourd’hui, le menu mise sur du caractère, une touche de soleil et des valeurs sûres. De quoi finir la semaine avec une assiette bien choisie.</p><p><strong>Plats du jour</strong></p><ul><li><strong>Andouillette de Troyes</strong> — 7,02 €<br>Une spécialité généreuse au goût franc, parfaite pour les amateurs de plats rustiques et bien marqués.</li><li><strong>Pavé de thon basquaise</strong> — 8,76 €<br>Un pavé de thon accompagné d’une sauce basquaise aux poivrons et tomates, pour une assiette légère et ensoleillée.</li><li><strong>Pizza</strong> — 8,09 €<br>Une valeur sûre, fondante et conviviale, idéale pour une pause déjeuner simple et efficace.</li></ul><p><strong>Suggestion du chef</strong><br>👉 <strong>Pavé de thon basquaise</strong><br>Le bon compromis du jour : savoureux, coloré, et assez léger pour garder de l’énergie l’après-midi.</p><p>Bon appétit !</p></div>"
+  "message": "🍽️ Menu RIE — 05/06/2026\n\nVendredi lumineux à Éragny, 19 °C au compteur et une touche de soleil : une bonne pause déjeuner fera clairement la différence.\nAujourd’hui, le menu mise sur du caractère, une touche de soleil et des valeurs sûres. De quoi finir la semaine avec une assiette bien choisie.\n\nPlats du jour\n• Andouillette de Troyes — 7,02 €\n  Une spécialité généreuse au goût franc, parfaite pour les amateurs de plats rustiques et bien marqués.\n• Pavé de thon basquaise — 8,76 €\n  Un pavé de thon accompagné d’une sauce basquaise aux poivrons et tomates, pour une assiette légère et ensoleillée.\n• Pizza — 8,09 €\n  Une valeur sûre, fondante et conviviale, idéale pour une pause déjeuner simple et efficace.\n\nSuggestion du chef\n👉 Pavé de thon basquaise\nLe bon compromis du jour : savoureux, coloré, et assez léger pour garder de l’énergie l’après-midi.\n\nBon appétit !",
+  "messageHtml": "<div><h2>🍽️ Menu RIE — 05/06/2026</h2><p>Vendredi lumineux à Éragny, 19 °C au compteur et une touche de soleil : une bonne pause déjeuner fera clairement la différence.<br>Aujourd’hui, le menu mise sur du caractère, une touche de soleil et des valeurs sûres. De quoi finir la semaine avec une assiette bien choisie.</p><p><strong>Plats du jour</strong></p><ul><li><strong>Andouillette de Troyes</strong> — 7,02 €<br>Une spécialité généreuse au goût franc, parfaite pour les amateurs de plats rustiques et bien marqués.</li><li><strong>Pavé de thon basquaise</strong> — 8,76 €<br>Un pavé de thon accompagné d’une sauce basquaise aux poivrons et tomates, pour une assiette légère et ensoleillée.</li><li><strong>Pizza</strong> — 8,09 €<br>Une valeur sûre, fondante et conviviale, idéale pour une pause déjeuner simple et efficace.</li></ul><p><strong>Suggestion du chef</strong><br>👉 <strong>Pavé de thon basquaise</strong><br>Le bon compromis du jour : savoureux, coloré, et assez léger pour garder de l’énergie l’après-midi.</p><p>Bon appétit !</p></div>",
+  "weather": {
+    "available": true,
+    "source": "open-meteo.com",
+    "location": "Éragny",
+    "description": "couvert",
+    "tempC": 19,
+    "precipMM": 0,
+    "chanceRain": 0,
+    "sunHours": 13.1
+  }
 }
