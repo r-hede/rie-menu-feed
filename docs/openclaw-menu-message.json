@@ -1,28 +1,28 @@
 {
   "status": "ok",
-  "date": "2026-06-04",
-  "generatedAt": "2026-06-04T17:45:25.464105+02:00",
+  "date": "2026-06-05",
+  "generatedAt": "2026-06-05T09:58:53.405838+02:00",
   "source": {
     "repository": "r-hede/rie-menu-feed",
     "branch": "main",
     "path": "docs/menu.json",
-    "sha": "18901ef5f7546f618c5fd3dc5cf94fe089fa34cf",
+    "sha": "172da0f6ca35fd4dbf53bc2f468367f90d084b0f",
     "htmlUrl": "https://github.com/r-hede/rie-menu-feed/blob/main/docs/menu.json"
   },
   "dishes": [
     {
-      "name": "Côte de porc charcutière",
+      "name": "Andouillette de Troyes",
       "price": 7.02
     },
     {
-      "name": "Salade niçoise",
-      "price": 7.59
+      "name": "Pavé de thon basquaise",
+      "price": 8.76
     },
     {
-      "name": "Filet de bar sauce vierge",
-      "price": 10.53
+      "name": "Pizza",
+      "price": 8.09
     }
   ],
-  "message": "Menu RIE - 04/06/2026\nCe jeudi, trois options bien distinctes : réconfort, fraîcheur, finesse. À vous de choisir selon le rythme de la journée.\nObjectif : choisir simplement, bien manger, et repartir sans inertie.\n\nPlats du jour\n- Côte de porc charcutière - 7,02 € : un plat généreux et réconfortant, avec une sauce charcutière qui apporte du caractère sans compliquer l’assiette.\n- Salade niçoise - 7,59 € : une option fraîche et complète, idéale pour déjeuner léger tout en gardant de l’énergie pour l’après-midi.\n- Filet de bar sauce vierge - 10,53 € : un choix fin et lumineux, porté par une sauce vierge qui met en avant la fraîcheur du poisson.\n\nSuggestion du chef\nFilet de bar sauce vierge : le choix le plus fin du jour, idéal pour rester léger sans renoncer au plaisir.\n\nBon appétit !",
-  "messageHtml": "<div style=\"font-family:Segoe UI,Arial,sans-serif; line-height:1.35;\"><table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse:collapse; max-width:760px;\"><tr><td style=\"padding:0 0 10px 0;\"><div style=\"font-size:18px; font-weight:600; color:#242424;\">Menu RIE - 04/06/2026</div><div style=\"margin-top:4px; color:#424242;\">Ce jeudi, trois options bien distinctes : réconfort, fraîcheur, finesse. À vous de choisir selon le rythme de la journée.<br>Objectif : choisir simplement, bien manger, et repartir sans inertie.</div></td></tr><tr><td style=\"padding:10px 0 6px 0; border-top:1px solid #e5e5e5; color:#666; font-size:12px; text-transform:uppercase; letter-spacing:.04em;\">Plats du jour</td></tr><tr><td style=\"padding:10px 0; border-top:1px solid #f0f0f0;\"><table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse:collapse;\"><tr><td style=\"vertical-align:top; padding-right:12px;\"><strong>Côte de porc charcutière</strong></td><td align=\"right\" style=\"vertical-align:top; white-space:nowrap; color:#555;\">7,02 €</td></tr><tr><td colspan=\"2\" style=\"padding-top:3px; color:#555;\">un plat généreux et réconfortant, avec une sauce charcutière qui apporte du caractère sans compliquer l’assiette.</td></tr></table></td></tr><tr><td style=\"padding:10px 0; border-top:1px solid #f0f0f0;\"><table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse:collapse;\"><tr><td style=\"vertical-align:top; padding-right:12px;\"><strong>Salade niçoise</strong></td><td align=\"right\" style=\"vertical-align:top; white-space:nowrap; color:#555;\">7,59 €</td></tr><tr><td colspan=\"2\" style=\"padding-top:3px; color:#555;\">une option fraîche et complète, idéale pour déjeuner léger tout en gardant de l’énergie pour l’après-midi.</td></tr></table></td></tr><tr><td style=\"padding:10px 0; border-top:1px solid #f0f0f0;\"><table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse:collapse;\"><tr><td style=\"vertical-align:top; padding-right:12px;\"><strong>Filet de bar sauce vierge</strong></td><td align=\"right\" style=\"vertical-align:top; white-space:nowrap; color:#555;\">10,53 €</td></tr><tr><td colspan=\"2\" style=\"padding-top:3px; color:#555;\">un choix fin et lumineux, porté par une sauce vierge qui met en avant la fraîcheur du poisson.</td></tr></table></td></tr><tr><td style=\"padding:14px 0 0 0; border-top:1px solid #e5e5e5;\"><table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse:collapse; background:#f7f7f7; border-left:4px solid #6264a7;\"><tr><td style=\"padding:10px 12px;\"><div style=\"color:#666; font-size:12px; text-transform:uppercase; letter-spacing:.04em; margin-bottom:4px;\">Suggestion du chef</div><div><strong>Filet de bar sauce vierge</strong></div><div style=\"margin-top:3px; color:#555;\">le choix le plus fin du jour, idéal pour rester léger sans renoncer au plaisir.</div></td></tr></table></td></tr><tr><td style=\"padding-top:12px; color:#555;\">Bon appétit !</td></tr></table></div>"
+  "message": "🍽️ Menu RIE — 05/06/2026\n\nVendredi approche : un menu clair, trois options, une recommandation pour finir la semaine sans se tromper.\nObjectif : choisir simplement, bien manger, et repartir sans inertie.\n\nPlats du jour\n• Andouillette de Troyes — 7,02 €\n  une proposition du jour à découvrir, avec un bon équilibre entre gourmandise et efficacité pour la pause déjeuner.\n• Pavé de thon basquaise — 8,76 €\n  une proposition du jour à découvrir, avec un bon équilibre entre gourmandise et efficacité pour la pause déjeuner.\n• Pizza — 8,09 €\n  une proposition du jour à découvrir, avec un bon équilibre entre gourmandise et efficacité pour la pause déjeuner.\n\nSuggestion du chef\n👉 Andouillette de Troyes\nun choix élégant pour finir la semaine sans alourdir l’après-midi.\n\nBon appétit !",
+  "messageHtml": "<div><h2>🍽️ Menu RIE — 05/06/2026</h2><p>Vendredi approche : un menu clair, trois options, une recommandation pour finir la semaine sans se tromper.<br>Objectif : choisir simplement, bien manger, et repartir sans inertie.</p><p><strong>Plats du jour</strong></p><ul><li><strong>Andouillette de Troyes</strong> — 7,02 €<br>une proposition du jour à découvrir, avec un bon équilibre entre gourmandise et efficacité pour la pause déjeuner.</li><li><strong>Pavé de thon basquaise</strong> — 8,76 €<br>une proposition du jour à découvrir, avec un bon équilibre entre gourmandise et efficacité pour la pause déjeuner.</li><li><strong>Pizza</strong> — 8,09 €<br>une proposition du jour à découvrir, avec un bon équilibre entre gourmandise et efficacité pour la pause déjeuner.</li></ul><p><strong>Suggestion du chef</strong><br>👉 <strong>Andouillette de Troyes</strong><br>un choix élégant pour finir la semaine sans alourdir l’après-midi.</p><p>Bon appétit !</p></div>"
 }
