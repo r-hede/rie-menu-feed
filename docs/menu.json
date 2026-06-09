@@ -1,19 +1,19 @@
 {
   "status": "ok",
-  "date": "2026-06-05",
-  "fetchedAt": "2026-06-05T12:28:11.573Z",
+  "date": "2026-06-09",
+  "fetchedAt": "2026-06-09T10:26:06.036Z",
   "dishes": [
     {
-      "name": "Andouillette de Troyes",
-      "price": 7.02
-    },
-    {
-      "name": "Pavé de thon basquaise",
-      "price": 8.76
+      "name": "Carré de porc",
+      "price": 7.59
     },
     {
       "name": "Pizza",
       "price": 8.09
+    },
+    {
+      "name": "Filet de saumon",
+      "price": 8.76
     }
   ]
 }
