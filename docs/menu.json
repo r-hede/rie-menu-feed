@@ -1,19 +1,19 @@
 {
   "status": "ok",
-  "date": "2026-06-09",
-  "fetchedAt": "2026-06-09T10:26:06.036Z",
+  "date": "2026-06-10",
+  "fetchedAt": "2026-06-10T10:47:26.192Z",
   "dishes": [
     {
-      "name": "Carré de porc",
-      "price": 7.59
+      "name": "Fettucinis poulet et crème de poivrons",
+      "price": 7.02
     },
     {
-      "name": "Pizza",
-      "price": 8.09
-    },
-    {
-      "name": "Filet de saumon",
+      "name": "Tartare de boeuf",
       "price": 8.76
+    },
+    {
+      "name": "Filet de lotte",
+      "price": 10.53
     }
   ]
 }
