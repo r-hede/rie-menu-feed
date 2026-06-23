@@ -1,19 +1,23 @@
 {
   "status": "ok",
-  "date": "2026-06-12",
-  "fetchedAt": "2026-06-12T10:56:02.294Z",
+  "date": "2026-06-23",
+  "fetchedAt": "2026-06-23T10:27:15.534Z",
   "dishes": [
     {
-      "name": "Tortillas à l'espagnole",
-      "price": 6.42
+      "name": "Filet de mostelle rôti au lait de coco",
+      "price": 7.59
     },
     {
-      "name": "Machboos (cuisse de poulet)",
-      "price": 7.02
+      "name": "Salade italienne",
+      "price": 7.59
     },
     {
-      "name": "Filet de colin 5 céréales",
-      "price": 8.76
+      "name": "Chili con carne",
+      "price": 7.59
+    },
+    {
+      "name": "Côte de veau",
+      "price": 10.53
     }
   ]
 }
