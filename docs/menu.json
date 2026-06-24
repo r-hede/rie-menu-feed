@@ -1,23 +1,19 @@
 {
   "status": "ok",
-  "date": "2026-06-23",
-  "fetchedAt": "2026-06-23T10:27:15.534Z",
+  "date": "2026-06-24",
+  "fetchedAt": "2026-06-24T10:12:03.090Z",
   "dishes": [
     {
-      "name": "Filet de mostelle rôti au lait de coco",
-      "price": 7.59
+      "name": "Rôti de boeuf (froid)",
+      "price": 8.76
     },
     {
-      "name": "Salade italienne",
-      "price": 7.59
+      "name": "Saucisse fumée",
+      "price": 7.02
     },
     {
-      "name": "Chili con carne",
-      "price": 7.59
-    },
-    {
-      "name": "Côte de veau",
-      "price": 10.53
+      "name": "Dos de lieu noir",
+      "price": 8.76
     }
   ]
 }
