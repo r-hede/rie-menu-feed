@@ -1,19 +1,19 @@
 {
   "status": "ok",
-  "date": "2026-06-24",
-  "fetchedAt": "2026-06-24T10:12:03.090Z",
+  "date": "2026-06-25",
+  "fetchedAt": "2026-06-25T10:01:03.282Z",
   "dishes": [
     {
-      "name": "Rôti de boeuf (froid)",
-      "price": 8.76
-    },
-    {
-      "name": "Saucisse fumée",
+      "name": "Filet de poulet froid et son taboulet maison",
       "price": 7.02
     },
     {
-      "name": "Dos de lieu noir",
+      "name": "Pintade à l'estragon",
       "price": 8.76
+    },
+    {
+      "name": "Encocado de camarones (crevettes)",
+      "price": 10.53
     }
   ]
 }
