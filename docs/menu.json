@@ -1,19 +1,19 @@
 {
   "status": "ok",
-  "date": "2026-06-25",
-  "fetchedAt": "2026-06-25T10:01:03.282Z",
+  "date": "2026-06-26",
+  "fetchedAt": "2026-06-26T10:12:22.037Z",
   "dishes": [
     {
-      "name": "Filet de poulet froid et son taboulet maison",
-      "price": 7.02
+      "name": "Toulouse brasse",
+      "price": 7.59
     },
     {
-      "name": "Pintade à l'estragon",
+      "name": "Risotto à la tomate et burratina",
+      "price": 7.59
+    },
+    {
+      "name": "Fish and chips sauce tartare",
       "price": 8.76
-    },
-    {
-      "name": "Encocado de camarones (crevettes)",
-      "price": 10.53
     }
   ]
 }
