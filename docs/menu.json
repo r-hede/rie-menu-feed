@@ -1,18 +1,18 @@
 {
   "status": "ok",
-  "date": "2026-06-26",
-  "fetchedAt": "2026-06-26T10:12:22.037Z",
+  "date": "2026-06-30",
+  "fetchedAt": "2026-06-30T10:23:08.296Z",
   "dishes": [
     {
-      "name": "Toulouse brasse",
-      "price": 7.59
+      "name": "Rougail saucisse",
+      "price": 7.02
     },
     {
-      "name": "Risotto à la tomate et burratina",
-      "price": 7.59
+      "name": "Pizza",
+      "price": 8.09
     },
     {
-      "name": "Fish and chips sauce tartare",
+      "name": "Filet de raie grenobloise",
       "price": 8.76
     }
   ]
