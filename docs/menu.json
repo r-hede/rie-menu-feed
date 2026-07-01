@@ -1,19 +1,19 @@
 {
   "status": "ok",
-  "date": "2026-06-30",
-  "fetchedAt": "2026-06-30T10:23:08.296Z",
+  "date": "2026-07-01",
+  "fetchedAt": "2026-07-01T10:36:28.178Z",
   "dishes": [
     {
       "name": "Rougail saucisse",
       "price": 7.02
     },
     {
-      "name": "Pizza",
-      "price": 8.09
+      "name": "Filet de lieu - velouté de tomate",
+      "price": 7.59
     },
     {
-      "name": "Filet de raie grenobloise",
-      "price": 8.76
+      "name": "Pâtes à la Napolitaine",
+      "price": 7.02
     }
   ]
 }
