@@ -1,19 +1,15 @@
 {
   "status": "ok",
-  "date": "2026-07-01",
-  "fetchedAt": "2026-07-01T10:36:28.178Z",
+  "date": "2026-07-02",
+  "fetchedAt": "2026-07-02T09:50:20.909Z",
   "dishes": [
     {
-      "name": "Rougail saucisse",
-      "price": 7.02
-    },
-    {
-      "name": "Filet de lieu - velouté de tomate",
+      "name": "Salade caesar",
       "price": 7.59
     },
     {
-      "name": "Pâtes à la Napolitaine",
-      "price": 7.02
+      "name": "Escalope de saumon",
+      "price": 8.76
     }
   ]
 }
