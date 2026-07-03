@@ -1,15 +1,23 @@
 {
   "status": "ok",
-  "date": "2026-07-02",
-  "fetchedAt": "2026-07-02T09:50:20.909Z",
+  "date": "2026-07-03",
+  "fetchedAt": "2026-07-03T09:48:21.701Z",
   "dishes": [
     {
-      "name": "Salade caesar",
+      "name": "Poulet façon tajine",
       "price": 7.59
     },
     {
-      "name": "Escalope de saumon",
-      "price": 8.76
+      "name": "Pizza",
+      "price": 8.09
+    },
+    {
+      "name": "Filet de lieu noir sauce cressonette",
+      "price": 7.59
+    },
+    {
+      "name": "Dahl de lentilles aux lardons, champignons et jambon",
+      "price": 7.02
     }
   ]
 }
