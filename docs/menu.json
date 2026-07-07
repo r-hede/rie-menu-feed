@@ -1,22 +1,18 @@
 {
   "status": "ok",
-  "date": "2026-07-03",
-  "fetchedAt": "2026-07-03T09:48:21.701Z",
+  "date": "2026-07-07",
+  "fetchedAt": "2026-07-07T10:16:51.369Z",
   "dishes": [
     {
-      "name": "Poulet façon tajine",
+      "name": "Pavé de thon",
+      "price": 8.76
+    },
+    {
+      "name": "Salade césar",
       "price": 7.59
     },
     {
-      "name": "Pizza",
-      "price": 8.09
-    },
-    {
-      "name": "Filet de lieu noir sauce cressonette",
-      "price": 7.59
-    },
-    {
-      "name": "Dahl de lentilles aux lardons, champignons et jambon",
+      "name": "Polpette de boeuf",
       "price": 7.02
     }
   ]
