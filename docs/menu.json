@@ -1,19 +1,19 @@
 {
   "status": "ok",
-  "date": "2026-07-07",
-  "fetchedAt": "2026-07-07T10:16:51.369Z",
+  "date": "2026-07-08",
+  "fetchedAt": "2026-07-08T09:19:05.731Z",
   "dishes": [
     {
-      "name": "Pavé de thon",
+      "name": "Assiette anglaise",
       "price": 8.76
     },
     {
-      "name": "Salade césar",
-      "price": 7.59
+      "name": "Chicken burger",
+      "price": 8.76
     },
     {
-      "name": "Polpette de boeuf",
-      "price": 7.02
+      "name": "Dos d'églefin sauce soubise",
+      "price": 8.76
     }
   ]
 }
