@@ -1,18 +1,14 @@
 {
   "status": "ok",
-  "date": "2026-07-08",
-  "fetchedAt": "2026-07-08T09:19:05.731Z",
+  "date": "2026-07-09",
+  "fetchedAt": "2026-07-09T10:22:12.024Z",
   "dishes": [
     {
-      "name": "Assiette anglaise",
+      "name": "Brochette de boeuf au poivre",
       "price": 8.76
     },
     {
-      "name": "Chicken burger",
-      "price": 8.76
-    },
-    {
-      "name": "Dos d'églefin sauce soubise",
+      "name": "Escalope de saumon laquée",
       "price": 8.76
     }
   ]
