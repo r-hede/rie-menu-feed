@@ -1,15 +1,19 @@
 {
   "status": "ok",
-  "date": "2026-07-09",
-  "fetchedAt": "2026-07-09T10:22:12.024Z",
+  "date": "2026-07-10",
+  "fetchedAt": "2026-07-10T10:13:18.440Z",
   "dishes": [
     {
-      "name": "Brochette de boeuf au poivre",
+      "name": "Escalope de dinde normande",
+      "price": 7.02
+    },
+    {
+      "name": "Filet de merlu meunière",
       "price": 8.76
     },
     {
-      "name": "Escalope de saumon laquée",
-      "price": 8.76
+      "name": "Pizza",
+      "price": 8.09
     }
   ]
 }
