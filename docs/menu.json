@@ -1,19 +1,19 @@
 {
   "status": "ok",
-  "date": "2026-07-10",
-  "fetchedAt": "2026-07-10T10:13:18.440Z",
+  "date": "2026-07-15",
+  "fetchedAt": "2026-07-15T09:03:47.422Z",
   "dishes": [
     {
-      "name": "Escalope de dinde normande",
-      "price": 7.02
+      "name": "Salade niçoise",
+      "price": 7.59
     },
     {
-      "name": "Filet de merlu meunière",
+      "name": "Brochette de porc tex mex",
+      "price": 7.59
+    },
+    {
+      "name": "Filet de dorade crème d'ail",
       "price": 8.76
-    },
-    {
-      "name": "Pizza",
-      "price": 8.09
     }
   ]
 }
