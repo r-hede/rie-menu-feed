@@ -1,18 +1,18 @@
 {
   "status": "ok",
-  "date": "2026-07-21",
-  "fetchedAt": "2026-07-21T09:21:35.609Z",
+  "date": "2026-07-22",
+  "fetchedAt": "2026-07-22T09:20:40.954Z",
   "dishes": [
     {
-      "name": "Pizza",
-      "price": 8.09
-    },
-    {
-      "name": "Salade bowl au saumon, avocat, mangue et riz",
+      "name": "Tartare de boeuf",
       "price": 8.76
     },
     {
-      "name": "Cuisse de lapin à la moutarde",
+      "name": "Aille de raie velouté de crustacés",
+      "price": 8.76
+    },
+    {
+      "name": "Pavé de veau vallée d'auge",
       "price": 10.53
     }
   ]
