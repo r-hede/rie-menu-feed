@@ -1,19 +1,19 @@
 {
   "status": "ok",
-  "date": "2026-07-22",
-  "fetchedAt": "2026-07-22T09:20:40.954Z",
+  "date": "2026-07-23",
+  "fetchedAt": "2026-07-23T09:16:40.502Z",
   "dishes": [
+    {
+      "name": "Suprême de poulet",
+      "price": 8.76
+    },
+    {
+      "name": "Filet de truite aux amandes",
+      "price": 8.76
+    },
     {
       "name": "Tartare de boeuf",
       "price": 8.76
-    },
-    {
-      "name": "Aille de raie velouté de crustacés",
-      "price": 8.76
-    },
-    {
-      "name": "Pavé de veau vallée d'auge",
-      "price": 10.53
     }
   ]
 }
