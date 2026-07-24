@@ -4,14 +4,14 @@
   "location": "Éragny",
   "latitude": 49.0167,
   "longitude": 2.1,
-  "date": "2026-07-23",
-  "fetchedAt": "2026-07-23T09:16:41.253Z",
-  "description": "partiellement nuageux",
-  "weatherCode": 2,
-  "tempC": 19,
-  "feelsLikeC": 18,
+  "date": "2026-07-24",
+  "fetchedAt": "2026-07-24T09:13:33.043Z",
+  "description": "couvert",
+  "weatherCode": 3,
+  "tempC": 21,
+  "feelsLikeC": 21,
   "precipMM": 0,
   "chanceRain": 0,
-  "sunHours": 14.2,
-  "cloudCover": 65
+  "sunHours": 14.3,
+  "cloudCover": 100
 }
