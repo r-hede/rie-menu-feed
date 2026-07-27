@@ -1,15 +1,19 @@
 {
   "status": "ok",
-  "date": "2026-07-24",
-  "fetchedAt": "2026-07-24T09:13:32.073Z",
+  "date": "2026-07-27",
+  "fetchedAt": "2026-07-27T10:30:56.597Z",
   "dishes": [
     {
-      "name": "Brochette de boeuf à la catalane",
+      "name": "Spaghettis bolognaise",
+      "price": 6.42
+    },
+    {
+      "name": "Pavé de boeuf bordelaise",
       "price": 8.76
     },
     {
-      "name": "Colin pané 5 céréales",
-      "price": 8.76
+      "name": "Lotte à l'armoricaine",
+      "price": 10.53
     }
   ]
 }
