@@ -1,19 +1,19 @@
 {
   "status": "ok",
-  "date": "2026-07-28",
-  "fetchedAt": "2026-07-28T09:29:45.812Z",
+  "date": "2026-07-29",
+  "fetchedAt": "2026-07-29T09:31:20.594Z",
   "dishes": [
+    {
+      "name": "Escalope de veau viennoise",
+      "price": 8.76
+    },
+    {
+      "name": "Navarin de merlu",
+      "price": 8.76
+    },
     {
       "name": "Salade parisienne",
       "price": 7.59
-    },
-    {
-      "name": "Pizza",
-      "price": 8.09
-    },
-    {
-      "name": "Limande en tempura",
-      "price": 8.76
     }
   ]
 }
