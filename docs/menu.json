@@ -1,15 +1,15 @@
 {
   "status": "ok",
-  "date": "2026-08-03",
-  "fetchedAt": "2026-08-03T10:31:04.331Z",
+  "date": "2026-08-04",
+  "fetchedAt": "2026-08-04T09:31:58.149Z",
   "dishes": [
     {
-      "name": "Travers de porc bbq",
-      "price": 7.59
+      "name": "Pavé de thon basquaise",
+      "price": 8.76
     },
     {
-      "name": "Crevettes au curry et lait de coco",
-      "price": 8.76
+      "name": "Magret de canard au vin d'épices",
+      "price": 10.53
     }
   ]
 }
