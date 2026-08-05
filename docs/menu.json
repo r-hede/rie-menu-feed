@@ -1,14 +1,18 @@
 {
   "status": "ok",
-  "date": "2026-08-04",
-  "fetchedAt": "2026-08-04T09:31:58.149Z",
+  "date": "2026-08-05",
+  "fetchedAt": "2026-08-05T09:29:00.828Z",
   "dishes": [
     {
-      "name": "Pavé de thon basquaise",
+      "name": "Poke bowl saumon",
       "price": 8.76
     },
     {
-      "name": "Magret de canard au vin d'épices",
+      "name": "Burger auvergnat",
+      "price": 8.76
+    },
+    {
+      "name": "Magret de canard",
       "price": 10.53
     }
   ]
