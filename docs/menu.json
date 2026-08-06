@@ -1,19 +1,19 @@
 {
   "status": "ok",
-  "date": "2026-08-05",
-  "fetchedAt": "2026-08-05T09:29:00.828Z",
+  "date": "2026-08-06",
+  "fetchedAt": "2026-08-06T09:33:19.336Z",
   "dishes": [
+    {
+      "name": "Travers de porc",
+      "price": 7.59
+    },
+    {
+      "name": "Filet de truite aux amandes",
+      "price": 8.76
+    },
     {
       "name": "Poke bowl saumon",
       "price": 8.76
-    },
-    {
-      "name": "Burger auvergnat",
-      "price": 8.76
-    },
-    {
-      "name": "Magret de canard",
-      "price": 10.53
     }
   ]
 }
