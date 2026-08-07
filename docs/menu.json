@@ -1,19 +1,15 @@
 {
   "status": "ok",
-  "date": "2026-08-06",
-  "fetchedAt": "2026-08-06T09:33:19.336Z",
+  "date": "2026-08-07",
+  "fetchedAt": "2026-08-07T08:04:21.465Z",
   "dishes": [
     {
-      "name": "Travers de porc",
+      "name": "Feuilleté de saumon à l'oseille",
       "price": 7.59
     },
     {
-      "name": "Filet de truite aux amandes",
-      "price": 8.76
-    },
-    {
-      "name": "Poke bowl saumon",
-      "price": 8.76
+      "name": "Saucisse brasse à la moutarde à l'ancienne",
+      "price": 7.59
     }
   ]
 }
