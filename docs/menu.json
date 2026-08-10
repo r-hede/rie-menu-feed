@@ -1,14 +1,14 @@
 {
   "status": "ok",
-  "date": "2026-08-07",
-  "fetchedAt": "2026-08-07T08:04:21.465Z",
+  "date": "2026-08-10",
+  "fetchedAt": "2026-08-10T09:51:46.086Z",
   "dishes": [
     {
-      "name": "Feuilleté de saumon à l'oseille",
-      "price": 7.59
+      "name": "Suprême de poulet à l'estragon",
+      "price": 8.76
     },
     {
-      "name": "Saucisse brasse à la moutarde à l'ancienne",
+      "name": "Dos de lieu, marinière au thym",
       "price": 7.59
     }
   ]
