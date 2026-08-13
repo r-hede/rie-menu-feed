@@ -1,15 +1,15 @@
 {
   "status": "ok",
-  "date": "2026-08-12",
-  "fetchedAt": "2026-08-12T08:07:32.647Z",
+  "date": "2026-08-13",
+  "fetchedAt": "2026-08-13T08:09:55.662Z",
   "dishes": [
     {
-      "name": "Salade périgourdine",
-      "price": 7.59
+      "name": "Epaule de veau rôti",
+      "price": 10.53
     },
     {
-      "name": "Lotte à l'armoricaine",
-      "price": 10.53
+      "name": "Escalope de saumon à l'oseille",
+      "price": 8.76
     }
   ]
 }
