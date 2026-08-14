@@ -1,14 +1,14 @@
 {
   "status": "ok",
-  "date": "2026-08-13",
-  "fetchedAt": "2026-08-13T08:09:55.662Z",
+  "date": "2026-08-14",
+  "fetchedAt": "2026-08-14T08:05:16.371Z",
   "dishes": [
     {
-      "name": "Epaule de veau rôti",
-      "price": 10.53
+      "name": "Salade Caesar",
+      "price": 7.59
     },
     {
-      "name": "Escalope de saumon à l'oseille",
+      "name": "Filet de merlu meunière au citron",
       "price": 8.76
     }
   ]
