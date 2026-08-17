@@ -1,14 +1,14 @@
 {
   "status": "ok",
-  "date": "2026-08-14",
-  "fetchedAt": "2026-08-14T08:05:16.371Z",
+  "date": "2026-08-17",
+  "fetchedAt": "2026-08-17T07:41:26.607Z",
   "dishes": [
     {
-      "name": "Salade Caesar",
+      "name": "Salade de chèvre",
       "price": 7.59
     },
     {
-      "name": "Filet de merlu meunière au citron",
+      "name": "Crevettes sautées façon asiatique",
       "price": 8.76
     }
   ]
