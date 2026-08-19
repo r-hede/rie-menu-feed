@@ -1,15 +1,15 @@
 {
   "status": "ok",
-  "date": "2026-08-18",
-  "fetchedAt": "2026-08-18T07:27:30.136Z",
+  "date": "2026-08-19",
+  "fetchedAt": "2026-08-19T07:28:52.066Z",
   "dishes": [
     {
-      "name": "Rougail saucisse",
-      "price": 7.02
+      "name": "Salade grecque",
+      "price": 7.59
     },
     {
-      "name": "Pizza",
-      "price": 8.09
+      "name": "Filet de merlu sur peau",
+      "price": 8.76
     }
   ]
 }
