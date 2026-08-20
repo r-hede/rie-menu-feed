@@ -1,14 +1,14 @@
 {
   "status": "ok",
-  "date": "2026-08-19",
-  "fetchedAt": "2026-08-19T07:28:52.066Z",
+  "date": "2026-08-20",
+  "fetchedAt": "2026-08-20T07:30:45.885Z",
   "dishes": [
     {
-      "name": "Salade grecque",
+      "name": "Chili con carne",
       "price": 7.59
     },
     {
-      "name": "Filet de merlu sur peau",
+      "name": "Escalope de saumon",
       "price": 8.76
     }
   ]
